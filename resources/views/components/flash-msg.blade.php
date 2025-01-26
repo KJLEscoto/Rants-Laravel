@@ -1,8 +1,8 @@
 @props(['msg'])
 
 <span class="flex items-center justify-center">
-    <div id="flash-message-container" class="fixed top-10 z-[60] transform scale-50 opacity-0 animate-popup">
-        <p class="w-[350px] h-auto py-3 px-5 text-center bg-green-500 rounded text-white font-semibold">
+    <div id="flash-message-container" class="fixed top-16 z-[60] transform scale-50 opacity-0 animate-popup">
+        <p class="w-[350px] h-auto py-3 px-5 text-center bg-black rounded text-white font-semibold text-sm">
             {{ session($msg) }}
         </p>
     </div>

@@ -14,6 +14,8 @@ return new class extends Migration {
             $table->id();
             $table->string('username')->unique();
             $table->string('email')->unique();
+            $table->string('picture')->nullable();
+            $table->string('banner')->nullable();
             $table->string('bio')->nullable();
             $table->string('location')->nullable();
             $table->string('website')->nullable();
