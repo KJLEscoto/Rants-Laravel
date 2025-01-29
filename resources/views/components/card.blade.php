@@ -21,7 +21,9 @@
                 </p>
             </section>
             <a href="#" class="w-full block">
-                <span>{{ Str::words($rant->content, 35) }}</span>
+                <a href="{{ route('rants.show', $rant->id) }}">
+                    <span>{{ Str::words($rant->content, 35) }}</span>
+                </a>
                 @if (Str::wordCount($rant->content) > 35)
                     <span class="text-sm text-gray-500">see more.</span>
                 @endif
@@ -41,10 +43,6 @@
             @endif
             {{ $rant->likes->count() }}
         </a>
-
-
-
-
 
         {{-- comment --}}
         <span><i class="fa-regular fa-comment"></i> 0</span>

@@ -4,6 +4,6 @@
 
 @layer base {
   html, body {
-    @apply scroll-smooth
+    @apply scroll-smooth 
   }
 }

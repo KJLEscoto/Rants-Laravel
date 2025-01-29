@@ -50,7 +50,9 @@ class RantController extends Controller
      */
     public function show(Rant $rant)
     {
-        //
+        // dd($rant);
+
+        return view('rants.show', ['rant' => $rant]);
     }
 
     /**

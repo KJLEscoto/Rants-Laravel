@@ -31,7 +31,7 @@
         </div>
     @endauth
 
-    <div class="pt-14 relative">{{ $slot }}</div>
+    <div class="pt-14 relative px-60">{{ $slot }}</div>
 </body>
 
 </html>

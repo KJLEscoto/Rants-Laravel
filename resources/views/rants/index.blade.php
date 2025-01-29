@@ -12,7 +12,7 @@
             <section class="flex gap-2">
                 <img class="h-10 w-10 rounded-full border" src="/sung.jpg">
                 <textarea name="content" id="content" placeholder="Speak your mind..."
-                    class="px-2 py-1 h-20 overflow-auto w-full focus:ring-0 focus:outline-none rounded focus:shadow resize-none border-0">{{ old('thoughts') }}</textarea>
+                    class="px-2 py-1 h-20 overflow-auto w-full focus:ring-0 focus:outline-none rounded focus:shadow resize-none border-0">{{ old('content') }}</textarea>
             </section>
             <hr>
             <div class="flex justify-between items-center gap-3">

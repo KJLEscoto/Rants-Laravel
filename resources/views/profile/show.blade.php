@@ -1,7 +1,7 @@
 <x-layout>
 
     {{-- banner --}}
-    <img class="absolute inset-0 top-16 object-cover object-center z-0 w-full h-60 bg-gray-200" src="/banner.jpg">
+    <img class="absolute inset-0 top-16 object-cover object-center z-0 w-full h-44 bg-gray-200" src="/banner.jpg">
 
     <main class="relative p-10 space-y-5 z-20">
         <div class="bg-white/70 backdrop-blur p-5 w-full h-auto rounded-xl border shadow-md space-y-5">
